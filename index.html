@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <style></style>
+</head>
+<body>
+  <button id="add" class="add">ADD SOMEONE</button>
+  <center>
+    <modal id="modal">
+      <box>
+        <h1>player name</h1>
+        <input id="new-name" />
+        <button id="done">Done</button>
+      </box>
+    </modal>
+    <window>
+      <bank>
+        <div id="sp" class="horizontal">
+          <input id="bank-input" type="number" min="0" />
+          <button id="execute">GO!</button>
+        </div>
+        <div class="horizontal" style="justify-content: space-around">
+          <div id="plus" class="pm" ;>+</div>
+          <div id="minus" class="pm" ;>-</div>
+        </div>
+        <div class="horizontal" style="justify-content: space-around">
+          <div id="slot-plus"></div>
+          <div id="slot-minus"></div>
+        </div>
+        <div class="horizontal" style="justify-content: space-around">
+          <div id="plus-slot">
+            <player id="prefab">
+              <t>name</t>
+              <c>5$</c>
+              <div class="horizontal" style="justify-content: space-around">
+                <button id="plusP" class="pm">+</button>
+                <button id="minusP" class="pm">-</button>
+              </div>
+            </player>
+          </div>
+
+          <div id="minus-slot">
+            <player id="prefab">
+              <t>name</t>
+              <c>5$</c>
+              <div class="horizontal" style="justify-content: space-around">
+                <button id="plusP" class="pm">+</button>
+                <button id="minusP" class="pm">-</button>
+              </div>
+            </player>
+          </div>
+        </div>
+      </bank>
+    </window>
+  </center>
+  <script src="index.js"></script>
+</body>
